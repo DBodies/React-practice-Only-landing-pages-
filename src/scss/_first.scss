@@ -1,0 +1,44 @@
+@import 'mixins';
+
+
+.firstLanding {
+    @include flex-center;
+    @include container
+}
+
+.wrapper-for-img {
+        @include flex-center;
+}
+
+.firstLanding-title {
+font-weight: 900;
+    font-size: 64px;
+    line-height: 125%;
+    text-align: center;
+    color: #252522;
+    margin-bottom: 24px;
+    max-width: 600px;
+}
+.firstLanding-description {
+    font-weight: 400;
+        font-size: 26px;
+        text-align: center;
+        color: rgba(37, 37, 37, 0.8);
+        max-width: 900px;
+        margin-bottom: 24px;
+}
+.firstLanding-button {
+    padding: 16px 32px;
+    background: #252525;
+    font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        color: #fff;
+border-radius: 16px;
+margin-bottom: 24px;
+    }
+    .wrapper-for-img {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
