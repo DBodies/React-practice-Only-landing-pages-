@@ -2,7 +2,7 @@ import '/src/scss/styles.scss'
 
 export default function FirstLanding() {
   return (
-    <div className='firstLanding'>
+    <div className='firstLanding container'>
       <h1 className='firstLanding-title'>Discover the beauty around the world</h1>
       <p className="firstLanding-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus semper habitant arcu eget. Et integer facilisi eget diam.</p>
       <button type="button" className='firstLanding-button'>Explore</button>

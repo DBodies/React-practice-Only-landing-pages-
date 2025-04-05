@@ -1,0 +1,15 @@
+.container {
+    max-width: 1920px;
+    padding: 64px;
+    margin: 0 auto;
+    position: relative;
+}
+.container::before {
+    content: "";
+    position: absolute;
+    bottom: 0; // 💡 Или top: 0, если хочешь линию сверху
+        left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: black;
+}
